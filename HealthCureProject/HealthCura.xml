@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HealthCura">
+<listeners>
+<listener class-name="utility.Listener"></listener>
+<listener class-name="utility.FailureCapture"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+    <class name="testCases.ProfileTestCases"/>
+      <class name="testCases.HistoryTestCases"/>
+       <class name="testCases.MakeAppointmentTestCase"/>
+      <class name="testCases.LogInTestCases"/>
+     
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- HealthCura -->

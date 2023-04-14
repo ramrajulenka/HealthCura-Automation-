@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-HealthCura" class="navigator-link">
+              <span class="suite-name border-passed">HealthCura</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-HealthCura" class="navigator-link ">
+                    <span>D:\JAVA Notes\java Programs\HealthCureProject\HealthCura.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-HealthCura" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-HealthCura" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-HealthCura" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-HealthCura" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-HealthCura" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-HealthCura" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-HealthCura" class="hide-methods passed suite-HealthCura"> (hide)</a> <!-- hide-methods passed suite-HealthCura -->
+                      <a href="#" panel-name="suite-HealthCura" class="show-methods passed suite-HealthCura"> (show)</a> <!-- show-methods passed suite-HealthCura -->
+                    </span>
+                    <div class="method-list-content passed suite-HealthCura">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HealthCura" title="testCases.HistoryTestCases" class="method navigator-link" hash-for-method="HistoryEndToEnd">HistoryEndToEnd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HealthCura" title="testCases.HistoryTestCases" class="method navigator-link" hash-for-method="addingAppointmtDisplyInHisty">addingAppointmtDisplyInHisty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HealthCura" title="testCases.LogInTestCases" class="method navigator-link" hash-for-method="homePageEndToEndBasicFlow">homePageEndToEndBasicFlow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HealthCura" title="testCases.LogInTestCases" class="method navigator-link" hash-for-method="homePageEndToEndWithAlternetFlow">homePageEndToEndWithAlternetFlow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HealthCura" title="testCases.MakeAppointmentTestCase" class="method navigator-link" hash-for-method="makeAppointmentEndToEnd">makeAppointmentEndToEnd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HealthCura" title="testCases.MakeAppointmentTestCase" class="method navigator-link" hash-for-method="makeAppointmentEndToEndAlternetFlow">makeAppointmentEndToEndAlternetFlow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HealthCura" title="testCases.ProfileTestCases" class="method navigator-link" hash-for-method="profileEndToEnd">profileEndToEnd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HealthCura" title="testCases.LogInTestCases" class="method navigator-link" hash-for-method="verifyTheLogo">verifyTheLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HealthCura" title="testCases.LogInTestCases" class="method navigator-link" hash-for-method="verifyUserWithInvalidData(Admin, admin123)">verifyUserWithInvalidData(Admin, admin123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HealthCura" title="testCases.LogInTestCases" class="method navigator-link" hash-for-method="verifyUserWithInvalidData(Admin, ramaraju)">verifyUserWithInvalidData(Admin, ramaraju)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HealthCura" title="testCases.LogInTestCases" class="method navigator-link" hash-for-method="verifyUserWithInvalidData(Rama@123, rama111)">verifyUserWithInvalidData(Rama@123, rama111)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HealthCura" title="testCases.LogInTestCases" class="method navigator-link" hash-for-method="verifyUserWithInvalidData(Admin, admin123)">verifyUserWithInvalidData(Admin, admin123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HealthCura" title="testCases.LogInTestCases" class="method navigator-link" hash-for-method="verifyUserWithInvalidData(kira@abc, kira@111)">verifyUserWithInvalidData(kira@abc, kira@111)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HealthCura" title="testCases.LogInTestCases" class="method navigator-link" hash-for-method="verifyUserWithInvalidData(kira, abcde)">verifyUserWithInvalidData(kira, abcde)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HealthCura" title="testCases.LogInTestCases" class="method navigator-link" hash-for-method="verifyUserWithInvalidData(prjwal@gmail.com, 12345)">verifyUserWithInvalidData(prjwal@gmail.com, 12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HealthCura" title="testCases.LogInTestCases" class="method navigator-link" hash-for-method="verifyUserWithInvalidData(rama@gmail.com, abcde)">verifyUserWithInvalidData(rama@gmail.com, abcde)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HealthCura" title="testCases.LogInTestCases" class="method navigator-link" hash-for-method="verifyWithValidUser">verifyWithValidUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-HealthCura -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-HealthCura" class="panel HealthCura">
+          <div class="suite-HealthCura-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.HistoryTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HistoryEndToEnd">
+                  </a> <!-- HistoryEndToEnd -->
+                  <span class="method-name">HistoryEndToEnd</span>
+                  <em>
+(Histry Page End To End Test Cases)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addingAppointmtDisplyInHisty">
+                  </a> <!-- addingAppointmtDisplyInHisty -->
+                  <span class="method-name">addingAppointmtDisplyInHisty</span>
+                  <em>
+(Verify Added Appointment Displayed in History Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HealthCura-class-passed -->
+          <div class="suite-HealthCura-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.ProfileTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="profileEndToEnd">
+                  </a> <!-- profileEndToEnd -->
+                  <span class="method-name">profileEndToEnd</span>
+                  <em>
+(Profile Page End To End Test Case )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HealthCura-class-passed -->
+          <div class="suite-HealthCura-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.LogInTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageEndToEndBasicFlow">
+                  </a> <!-- homePageEndToEndBasicFlow -->
+                  <span class="method-name">homePageEndToEndBasicFlow</span>
+                  <em>
+(Home Page End To End Test Case Basic Flow)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageEndToEndWithAlternetFlow">
+                  </a> <!-- homePageEndToEndWithAlternetFlow -->
+                  <span class="method-name">homePageEndToEndWithAlternetFlow</span>
+                  <em>
+(Home Page End To End Test Case with Alternet Flow)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTheLogo">
+                  </a> <!-- verifyTheLogo -->
+                  <span class="method-name">verifyTheLogo</span>
+                  <em>
+(Verify The Logo)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserWithInvalidData(Admin, admin123)">
+                  </a> <!-- verifyUserWithInvalidData(Admin, admin123) -->
+                  <span class="method-name">verifyUserWithInvalidData</span>
+                  <span class="parameters">(Admin, admin123)</span>
+                  <em>
+(verify with invalid crediantial)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserWithInvalidData(Admin, ramaraju)">
+                  </a> <!-- verifyUserWithInvalidData(Admin, ramaraju) -->
+                  <span class="method-name">verifyUserWithInvalidData</span>
+                  <span class="parameters">(Admin, ramaraju)</span>
+                  <em>
+(verify with invalid crediantial)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserWithInvalidData(Rama@123, rama111)">
+                  </a> <!-- verifyUserWithInvalidData(Rama@123, rama111) -->
+                  <span class="method-name">verifyUserWithInvalidData</span>
+                  <span class="parameters">(Rama@123, rama111)</span>
+                  <em>
+(verify with invalid crediantial)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserWithInvalidData(Admin, admin123)">
+                  </a> <!-- verifyUserWithInvalidData(Admin, admin123) -->
+                  <span class="method-name">verifyUserWithInvalidData</span>
+                  <span class="parameters">(Admin, admin123)</span>
+                  <em>
+(verify with invalid crediantial)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserWithInvalidData(kira@abc, kira@111)">
+                  </a> <!-- verifyUserWithInvalidData(kira@abc, kira@111) -->
+                  <span class="method-name">verifyUserWithInvalidData</span>
+                  <span class="parameters">(kira@abc, kira@111)</span>
+                  <em>
+(verify with invalid crediantial)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserWithInvalidData(kira, abcde)">
+                  </a> <!-- verifyUserWithInvalidData(kira, abcde) -->
+                  <span class="method-name">verifyUserWithInvalidData</span>
+                  <span class="parameters">(kira, abcde)</span>
+                  <em>
+(verify with invalid crediantial)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserWithInvalidData(prjwal@gmail.com, 12345)">
+                  </a> <!-- verifyUserWithInvalidData(prjwal@gmail.com, 12345) -->
+                  <span class="method-name">verifyUserWithInvalidData</span>
+                  <span class="parameters">(prjwal@gmail.com, 12345)</span>
+                  <em>
+(verify with invalid crediantial)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserWithInvalidData(rama@gmail.com, abcde)">
+                  </a> <!-- verifyUserWithInvalidData(rama@gmail.com, abcde) -->
+                  <span class="method-name">verifyUserWithInvalidData</span>
+                  <span class="parameters">(rama@gmail.com, abcde)</span>
+                  <em>
+(verify with invalid crediantial)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWithValidUser">
+                  </a> <!-- verifyWithValidUser -->
+                  <span class="method-name">verifyWithValidUser</span>
+                  <em>
+(verifying valid userName and Password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HealthCura-class-passed -->
+          <div class="suite-HealthCura-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.MakeAppointmentTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="makeAppointmentEndToEnd">
+                  </a> <!-- makeAppointmentEndToEnd -->
+                  <span class="method-name">makeAppointmentEndToEnd</span>
+                  <em>
+(Make Appointment End to End Test Case basic flow)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="makeAppointmentEndToEndAlternetFlow">
+                  </a> <!-- makeAppointmentEndToEndAlternetFlow -->
+                  <span class="method-name">makeAppointmentEndToEndAlternetFlow</span>
+                  <em>
+(Make Appointment End to End Test Case Alternet  flow)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HealthCura-class-passed -->
+        </div> <!-- panel HealthCura -->
+        <div panel-name="test-xml-HealthCura" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\JAVA Notes\java Programs\HealthCureProject\HealthCura.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;HealthCura&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utility.Listener&quot;/&gt;
+    &lt;listener class-name=&quot;utility.FailureCapture&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.ProfileTestCases&quot;/&gt;
+      &lt;class name=&quot;testCases.HistoryTestCases&quot;/&gt;
+      &lt;class name=&quot;testCases.MakeAppointmentTestCase&quot;/&gt;
+      &lt;class name=&quot;testCases.LogInTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- HealthCura --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-HealthCura" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for HealthCura</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-HealthCura" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for HealthCura</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-HealthCura" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for HealthCura</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_HealthCura');
+function tableData_HealthCura() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'profileEndToEnd')
+data.setCell(0, 2, 'testCases.ProfileTestCases')
+data.setCell(0, 3, 7773);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addingAppointmtDisplyInHisty')
+data.setCell(1, 2, 'testCases.HistoryTestCases')
+data.setCell(1, 3, 6553);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'makeAppointmentEndToEndAlternetFlow')
+data.setCell(2, 2, 'testCases.MakeAppointmentTestCase')
+data.setCell(2, 3, 5952);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'makeAppointmentEndToEnd')
+data.setCell(3, 2, 'testCases.MakeAppointmentTestCase')
+data.setCell(3, 3, 5944);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'HistoryEndToEnd')
+data.setCell(4, 2, 'testCases.HistoryTestCases')
+data.setCell(4, 3, 4434);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'homePageEndToEndWithAlternetFlow')
+data.setCell(5, 2, 'testCases.LogInTestCases')
+data.setCell(5, 3, 3672);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'homePageEndToEndBasicFlow')
+data.setCell(6, 2, 'testCases.LogInTestCases')
+data.setCell(6, 3, 3158);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyWithValidUser')
+data.setCell(7, 2, 'testCases.LogInTestCases')
+data.setCell(7, 3, 2709);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyUserWithInvalidData')
+data.setCell(8, 2, 'testCases.LogInTestCases')
+data.setCell(8, 3, 2648);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyUserWithInvalidData')
+data.setCell(9, 2, 'testCases.LogInTestCases')
+data.setCell(9, 3, 2430);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyUserWithInvalidData')
+data.setCell(10, 2, 'testCases.LogInTestCases')
+data.setCell(10, 3, 2262);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyUserWithInvalidData')
+data.setCell(11, 2, 'testCases.LogInTestCases')
+data.setCell(11, 3, 2066);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyUserWithInvalidData')
+data.setCell(12, 2, 'testCases.LogInTestCases')
+data.setCell(12, 3, 1972);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyUserWithInvalidData')
+data.setCell(13, 2, 'testCases.LogInTestCases')
+data.setCell(13, 3, 1959);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyUserWithInvalidData')
+data.setCell(14, 2, 'testCases.LogInTestCases')
+data.setCell(14, 3, 1749);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyUserWithInvalidData')
+data.setCell(15, 2, 'testCases.LogInTestCases')
+data.setCell(15, 3, 1724);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyTheLogo')
+data.setCell(16, 2, 'testCases.LogInTestCases')
+data.setCell(16, 3, 683);
+window.suiteTableData['HealthCura']= { tableData: data, tableDiv: 'times-div-HealthCura'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 57 seconds</span>
+              <div id="times-div-HealthCura">
+              </div> <!-- times-div-HealthCura -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-HealthCura" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for HealthCura</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-HealthCura" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.HistoryTestCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tear</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.LogInTestCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tear</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.MakeAppointmentTestCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tear</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-HealthCura" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ProfileTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">profileEndToEnd</span>
+                <span class="method-start">15661 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.HistoryTestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">HistoryEndToEnd</span>
+                <span class="method-start">23472 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addingAppointmtDisplyInHisty</span>
+                <span class="method-start">27912 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.MakeAppointmentTestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">makeAppointmentEndToEnd</span>
+                <span class="method-start">34469 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">makeAppointmentEndToEndAlternetFlow</span>
+                <span class="method-start">40419 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.LogInTestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">homePageEndToEndBasicFlow</span>
+                <span class="method-start">46376 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">homePageEndToEndWithAlternetFlow</span>
+                <span class="method-start">49538 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyTheLogo</span>
+                <span class="method-start">53213 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyUserWithInvalidData(Admin, admin123)</span>
+                <span class="method-start">55924 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyUserWithInvalidData(kira, abcde)</span>
+                <span class="method-start">58575 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyUserWithInvalidData(Admin, ramaraju)</span>
+                <span class="method-start">60643 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyUserWithInvalidData(Admin, admin123)</span>
+                <span class="method-start">62603 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyUserWithInvalidData(prjwal@gmail.com, 12345)</span>
+                <span class="method-start">64867 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyUserWithInvalidData(rama@gmail.com, abcde)</span>
+                <span class="method-start">66619 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyUserWithInvalidData(Rama@123, rama111)</span>
+                <span class="method-start">68346 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyUserWithInvalidData(kira@abc, kira@111)</span>
+                <span class="method-start">70320 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyWithValidUser</span>
+                <span class="method-start">72752 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ProfileTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tear</span>
+                <span class="method-start">75464 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
